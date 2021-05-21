@@ -18,7 +18,7 @@ function SearchBar(props) {
     }
 
     return (
-        <div className= "container" style={{ paddingTop: 15 }}>
+        
 
 
         <div className="card" style={{ width: 1000, position: "relative" }}>
@@ -29,7 +29,7 @@ function SearchBar(props) {
 
             </div>
         </div>
-        </div>
+        
     );
 }
 

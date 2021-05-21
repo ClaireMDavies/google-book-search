@@ -16,7 +16,7 @@ function Search() {
     }
 
     return (
-        <div>
+        <div className= "container" style={{ paddingTop: 15 }}>
             <SearchBar resultsCallback={processSearchResults} />
             <SearchResultsList bookList={bookList} />
         </div>

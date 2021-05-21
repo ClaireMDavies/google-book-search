@@ -3,11 +3,11 @@ import SearchResult from "../SearchResult";
 function SearchResultsList(props) {
     
     return (
-        <ul>
+        <div style={{paddingTop:10, paddingBottom:10}}>
             {props.bookList.map(book => (
                 <SearchResult key={book.id} book={book} />
             ))}        
-        </ul>
+        </div>
     );
 }
 
