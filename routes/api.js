@@ -4,8 +4,6 @@ const router = require("express").Router();
 // get all our saved books
 router.get("/api/books", (req, res) => {
 
-    console.log("here");
-
     Book.find({})
         .then(books => res.json(books))
         .catch(err => res.status(500).json(err));
