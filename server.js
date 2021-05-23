@@ -1,5 +1,7 @@
 const express = require("express");
 const mongoose = require("mongoose");
+const apiRoute = require("./routes/api.js");
+
 const PORT = process.env.PORT || 3001;
 const app = express();
 const path = require("path");
@@ -13,20 +15,7 @@ if (process.env.NODE_ENV === "production") {
     app.use(express.static("client/build"));
 }
 
-// get all our saved books
-app.get("/api/books", (req, res) => {
-    
-});
-
-// add a book for our saved books  
-app.post("/api/books", (req, res) => {
-    
-});
-
-// delete a book from our saved books  
-app.delete("/api/books/:id", (req, res) => {
-    
-});
+app.use(apiRoute);
 
 // wildcard handler for all pages
 app.get("*", (req, res) => {

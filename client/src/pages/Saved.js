@@ -1,9 +1,11 @@
-import React from "react";
+import SavedBooksList from "../components/SavedBooksList"
 
 function Saved() {
-    return (
-        <div>Saved</div>
 
+    return (
+        <div className= "container" style={{ paddingTop: 15 }}>
+            <SavedBooksList />
+        </div>
     );
 }
 

@@ -19,7 +19,9 @@ const BookSchema = new Schema({
     link: {
         type: String
     },
-
+    googleBookId: {
+        type: String
+    }
 });
 
 const Book = mongoose.model("Book", BookSchema);

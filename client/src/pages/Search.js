@@ -9,10 +9,6 @@ function Search() {
     function processSearchResults(searchResults) {
 
         setBookList(searchResults);
-
-        searchResults.forEach(book => {
-            console.log(book.volumeInfo.title);
-        });
     }
 
     return (
