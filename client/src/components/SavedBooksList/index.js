@@ -16,13 +16,22 @@ function SavedBooksList() {
         fetchData();
     }, []);
     
-    return (
-        <div style={{paddingTop:10}}>
-            {bookList.map(book => (
-                <SavedBook key={book._id} book={book} updateListCallback={setBookList} />
-            ))}        
-        </div>
-    );
+    if (bookList && bookList.length > 0)
+    {
+        return (
+
+            <div style={{paddingTop:10}}>
+                
+                {bookList.map(book => (
+                    <SavedBook key={book._id} book={book} updateListCallback={setBookList} />
+                ))}        
+            </div>
+        );
+    }
+    else
+    {
+        return <span>You have no saved books</span>;
+    }
 }
 
 export default SavedBooksList;

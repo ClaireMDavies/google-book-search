@@ -12,8 +12,6 @@ function SavedBook(props) {
 
     return (
 
-
-
         <div className="card" style={{ width: "100%", position: "relative" }}>
 
             <div className="card-body"  >

@@ -52,7 +52,7 @@ function SearchResult(props) {
                             <div className="card-body"  >
                                 <a href={props.book.volumeInfo.canonicalVolumeLink} className="btn" style={{ backgroundColor: "rgb(141, 81, 7)", color: "white" }}> View</a>
                                 <div className="card-body"  >
-                                    {allowSave ? <button className="btn" style={{ backgroundColor: "rgb(141, 81, 7)", color: "white" }} onClick={saveBook}>Save</button> : <span className="btn" style={{ backgroundColor: "rgb(240, 179, 105)", color: "white" }} >Saved</span>}
+                                    {allowSave ? <button className="btn" style={{ backgroundColor: "rgb(141, 81, 7)", color: "white" }} onClick={saveBook}>Save</button> : <span className="btn" style={{ backgroundColor: "rgb(240, 179, 105)", color: "white", cursor: "default" }} >Saved</span>}
                                 </div>
                             </div>
                         </div>
