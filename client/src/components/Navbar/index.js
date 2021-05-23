@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 function Navbar() {
     return (
         <nav className="navbar navbar-expand-lg navbar-dark" style={{ backgroundColor: "rgb(94, 53, 4)" }}>
-            <span class="navbar-brand mb-0 h1">Google Books</span>
+            <span className="navbar-brand mb-0 h1">Google Books</span>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
                 aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>

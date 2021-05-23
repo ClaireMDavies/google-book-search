@@ -19,7 +19,7 @@ function SavedBook(props) {
             <div className="card-body"  >
                 <div className="row">
                     <div className="col-md-6">
-                        <img src={props.book.image} Style={{ width: 150 }} alt="cover of book" />
+                        <img src={props.book.image} style={{ width: 150 }} alt="cover of book" />
                         <div className="row">
                             <div className="card-body"  >
                                 <a href={props.book.link} className="btn" style={{ backgroundColor: "rgb(141, 81, 7)", color: "white" }}> View</a>
