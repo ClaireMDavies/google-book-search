@@ -43,7 +43,7 @@ function SearchResult(props) {
 
     return (
 
-        <div className="card" style={{ width: 1000, position: "relative" }}>
+        <div className="card" style={{ width: "100%", position: "relative" }}>
             <div className="card-body"  >
                 <div className="row">
                     <div className="col-md-6">

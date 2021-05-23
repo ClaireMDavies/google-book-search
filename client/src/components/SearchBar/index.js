@@ -37,7 +37,7 @@ function SearchBar(props) {
 
     return (
 
-        <div className="card" style={{ width: 1000, position: "relative" }}>
+        <div className="card" style={{ width: "100%", position: "relative" }}>
             <div className="card-body" >
                 <input className="form-control me-2" ref={searchField} type="text" placeholder="Search for a book" aria-label="Search"></input>
                 <div className="card-body" >
