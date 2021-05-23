@@ -30,7 +30,11 @@ function SavedBooksList() {
     }
     else
     {
-        return <span>You have no saved books</span>;
+        return (
+        <div className="card" style={{padding:10, color:"rgb(94, 53, 4)"}}>
+            <h5>You have no saved books</h5>
+        </div>
+        );
     }
 }
 
