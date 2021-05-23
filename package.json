@@ -25,7 +25,9 @@
   "homepage": "https://github.com/ClaireMDavies/google-book-search#readme",
   "dependencies": {
     "axios": "^0.21.1",
+    "dotenv": "^10.0.0",
     "express": "^4.17.1",
+    "if-env": "^1.0.4",
     "mongoose": "^5.12.10"
   },
   "devDependencies": {
