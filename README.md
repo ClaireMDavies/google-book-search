@@ -13,6 +13,7 @@ An application to search the Google Books API for the search parameters given, s
   - [License](##license)
   - [Credits](##credits)
   - [Technologies Used](##technologies-used)
+  - [Further Developments](##futher-developments)
   - [Contact Information](##contact-information)
 
 
