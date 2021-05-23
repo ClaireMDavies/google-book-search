@@ -51,7 +51,7 @@ function SearchResult(props) {
             <div className="card-body"  >
                 <div className="row">
                     <div className="col-md-6">
-                        <img src={props.book.volumeInfo.imageLinks.smallThumbnail} Style={{ width: 150 }} className="card-img" alt="..." /></div>
+                        <img src={props.book.volumeInfo.imageLinks.smallThumbnail} alt="..." /></div>
                     <div className="col-md-6">
                         <h5 className="card-title"> {props.book.volumeInfo.title}</h5>
                         <ul className="list-group list-group-flush">
