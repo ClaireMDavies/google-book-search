@@ -39,16 +39,13 @@ function SearchBar(props) {
 
         <div className="card" style={{ width: 1000, position: "relative" }}>
             <div className="card-body" >
-
-                <input className="form-control me-2"  ref={searchField} type="text" placeholder="Search for a book" aria-label="Search"></input>
-                <button onClick={handleClick} class="btn btn-outline" style={{ backgroundColor: "rgb(141, 81, 7)", color: "white"}} type="submit">Search</button>
-
+                <input className="form-control me-2" ref={searchField} type="text" placeholder="Search for a book" aria-label="Search"></input>
+                <div className="card-body" >
+                    <button onClick={handleClick} class="btn btn-outline" style={{ backgroundColor: "rgb(141, 81, 7)", color: "white" }} type="submit">Search</button>
+                </div>
                 <div><span>{errorMessage}</span></div>
-
-                
             </div>
         </div>
-
     );
 }
 
